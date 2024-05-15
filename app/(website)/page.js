@@ -17,7 +17,9 @@ const HomePage = async () => {
       </>
       :
       <>
-      <SignInButton />
+        <div className='flex flex-col h-screen justify-center items-center'>
+        <SignInButton />
+        </div>
       </>  
     }
     </section>
